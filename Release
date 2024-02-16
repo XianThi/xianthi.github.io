@@ -1,8 +1,15 @@
 Origin: XianThiRepo
-Label: XianThiRepo
+Label: XianThi
 Suite: stable
-Version: 1.0
-Codename: ios
+Version: 1.0.0
+Codename: tangelo
 Architectures: iphoneos-arm iphoneos-arm64
 Components: main
-Description: XianThi - jb tweak repo
+Description: XianThi tweak repo
+md5:  0d97df362a50f2e2e2c539ca1f7dd796 31203 Packages
+ 4608457c05681b8dd8c342300f9e5b90 9022 Packages.gz
+sha1:  1afe0b398241ac49c262b57554096bd9e4d56f11 31203 Packages
+ ed3143abba522e61e4179e35f3dbd4326bf57363 9022 Packages.gz
+sha256:  5f7cecce0cfafe1154d5752445e45c2e873d1a5d09f4604b83ef8a97c4a06342 31203 Packages
+ 52636656bccbbd177df459b2a6115191cfaf046aacca14a9249be15a4ee50149 9022 Packages.gz
+
