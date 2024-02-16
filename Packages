@@ -2,7 +2,7 @@ Package: com.foxfort.krashkop
 Section: Tweaks
 Installed-Size: 428
 Maintainer: FoxfortMobile
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 1.0.2
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
 Description: Lightweight crash reporter
@@ -10,17 +10,17 @@ Name: KrashKop
 Author: FoxfortMobile
 Icon: file:///Applications/KrashKopApp.app/AppIcon60x60@2x.png
 Filename: debians/com.foxfort.krashkop.deb
-Size: 221614
-md5: 37f7df412df64faa489be09735ab31e1
-sha1: 335bb6ebe15481f8f37b714230eebc8fb73ce679
-sha256: a03c07e707cb3b8b6b741e0e5a4ab7c157f9d36ee6626e7d18c4a8bf0124167d
+Size: 221602
+md5: 7c57d12be3ef85baf8e61ad339348c6a
+sha1: effe5499ea59574a55d11050355de1d5e132cf39
+sha256: b7a5f57c0cd490dfabdd840a94e5f25192767837482bd25071c749040142afdd
 Depiction: xianthi.github.io/depictions/web/?p=com.foxfort.krashkop
 SileoDepiction: xianthi.github.io/depictions/native/com.foxfort.krashkop/depiction.json
 
 Package: com.hackyouriphone.systeminfo
 Section: HYI - Tweaks
 Maintainer: HackYouriPhone <repo@hackyouriphone.org>
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 2.7.2-1
 Depends: mobilesubstrate
 Description: System information in Settings app > General > About, and other sections. Set boot-nonce, save shsh, battery info etc
@@ -30,10 +30,10 @@ Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=syste
 SileoDepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=systeminfo
 Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=systeminfo
 Filename: debians/com.hackyouriphone.systeminfo.deb
-Size: 481258
-md5: c9ad20cbfdfc3d2c07bad00992269f83
-sha1: e9380831a535e6fdaa4f545e6a9c2c90c34ec093
-sha256: 0ee916f06b0bec375f0dde7a0d3f46fefd90afe63c2c4f71724d068adbe0a9e5
+Size: 481468
+md5: 20404dd403c6ce40479500e451b553c4
+sha1: 6e54aacf364838bead79e455857449ce60e29673
+sha256: 15a71c6f0014f397a76dbbdf0ebd1847695d13c795e0e327b78fcc6c674c6c62
 Depiction: xianthi.github.io/depictions/web/?p=com.hackyouriphone.systeminfo
 SileoDepiction: xianthi.github.io/depictions/native/com.hackyouriphone.systeminfo/depiction.json
 
@@ -41,7 +41,7 @@ Package: com.jakeashacks.realcc
 Section: Tweaks
 Installed-Size: 102
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 1.0.2
 Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
 Description: Actually disable Wi-Fi from the iOS 11 CC
@@ -53,28 +53,62 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 dev: jakeashacks
 Tag: purpose::extension, compatible::ios11, compatible::ios12
 Filename: debians/com.jakeashacks.realcc.deb
-Size: 17780
-md5: 1f9a0dc6535328f19d8afef5a4eedacf
-sha1: fa9acc703415d899cd03456526ac1d73eed6afa7
-sha256: 6bcd1b26c69b3f812b5db3e252959df1d3ab0959effd30adbffc10045b94ac16
+Size: 17762
+md5: 1725d61650dfd18ac0c8c770bae67fd2
+sha1: 88cb5524299f5943181b62cc3c33cad41ae364f4
+sha256: e7305e67984dd442be0a5724020fe6c2f529cc25f5c78ff249e6fc2b10923b66
 Depiction: xianthi.github.io/depictions/web/?p=com.jakeashacks.realcc
 SileoDepiction: xianthi.github.io/depictions/native/com.jakeashacks.realcc/depiction.json
+
+Package: com.kjcracks.clutch
+Section: Utilities
+Maintainer: Viktor Oreshkin (stek29) <cy@stek29.rocks>
+Architecture: iphoneos-arm
+Version: 2.0.4-47-gd104f30a9cc5
+Description: Fast cracking utility for iPhone, iPod and iPad
+Name: Clutch
+Author: Kim Jong Cracks
+Filename: debians/com.kjcracks.clutch.deb
+Size: 224958
+md5: cde33ab71ec0273b64e2114d07af45ff
+sha1: a3621e809ed3b3d5bd6266b9803e49d299a9e614
+sha256: 94d805908033875654850058ce1182e5099c37d2a661a0c82d6063d3f5d6cfe6
+Depiction: xianthi.github.io/depictions/web/?p=com.kjcracks.clutch
+SileoDepiction: xianthi.github.io/depictions/native/com.kjcracks.clutch/depiction.json
+
+Package: com.level3tjg.bfdecrypt
+Section: System
+Installed-Size: 796
+Maintainer: level3tjg <tjaygrantham@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.3.3-1-1+debug
+Depends: firmware (>= 11.0), preferenceloader, com.spark.libsparkapplist
+Description: bfdecrypt for iOS 15 or lower
+Name: bfdecrypt
+Author: level3tjg <tjaygrantham@gmail.com>
+Filename: debians/com.level3tjg.bfdecrypt.deb
+Size: 208710
+md5: fa224f6d729dac7fb4e8567c27e12e0f
+sha1: e5ff3ef05a17f72853585ec2b3b0858b8416779d
+sha256: 413a4226305ede00430084e3fe37a10e78d3a3fb90a3ae9f5d24cd7de19c775e
+Depiction: xianthi.github.io/depictions/web/?p=com.level3tjg.bfdecrypt
+SileoDepiction: xianthi.github.io/depictions/native/com.level3tjg.bfdecrypt/depiction.json
 
 Package: com.muirey03.cr4shed
 Section: Tweaks
 Installed-Size: 1384
 Maintainer: Muirey03
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 4.3.0
 Depends: mobilesubstrate, com.muirey03.libmryipc, cy+cpu.arm64 | cy+cpu.arm64e, firmware (>= 9.0), ws.hbang.common (>= 1.11)
 Description: A modern crash reporter for iOS
 Name: Cr4shed
 Author: Muirey03
 Filename: debians/com.muirey03.cr4shed.deb
-Size: 350736
-md5: 0091b4161c74a68ca624904a3f31c901
-sha1: 33de440def6f3b754552d81c04121361575d3987
-sha256: 36709a5f53cac2dc979dcfb5896f8b8a79c124fc84e2f5db1d9940b1bb539286
+Size: 350948
+md5: a84567b854347fe8bc47a21478aeb6a7
+sha1: afe0ff6568413818b42c5b3c8ddb66f953ffb5c6
+sha256: 9b85028dae91b76a66584dc22fad5ec864a923078f5738e38865527266286337
 Depiction: xianthi.github.io/depictions/web/?p=com.muirey03.cr4shed
 SileoDepiction: xianthi.github.io/depictions/native/com.muirey03.cr4shed/depiction.json
 
@@ -82,7 +116,7 @@ Package: com.muirey03.libmryipc
 Section: Development
 Installed-Size: 464
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 2.0.1
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
 Conflicts: ws.hbang.stopcrashingpls (= 1.0)
@@ -94,10 +128,10 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libmryipcD
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libmryipcDp
 Tag: role::developer, purpose::library, cydia::obsolete
 Filename: debians/com.muirey03.libmryipc.deb
-Size: 79422
-md5: ee6e57ce39133df45b6355e6e61d09e9
-sha1: e724a769b153e0cad8807a6dba6784c5c5c891f1
-sha256: f388a5bf71f439ada065ab7b98fb88021acded59ecd721847c8924fbfdef6e94
+Size: 79636
+md5: f1524bebd6e9167239f21919216c489f
+sha1: 9e2de23c97d186e71c5459c8044233d3df6b0efe
+sha256: c74e474a8f706b7d2ba3f52bd7c4055ad95bffd539de65556933fd334383e715
 Depiction: xianthi.github.io/depictions/web/?p=com.muirey03.libmryipc
 SileoDepiction: xianthi.github.io/depictions/native/com.muirey03.libmryipc/depiction.json
 
@@ -105,17 +139,17 @@ Package: com.nahtedetihw.floatingdockxvi
 Section: Tweaks
 Installed-Size: 812
 Maintainer: Ethan Whited
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 1.8
 Depends: preferenceloader
 Description: Floating Dock on iOS 16
 Name: FloatingDockXVI
 Author: Ethan Whited
 Filename: debians/com.nahtedetihw.floatingdockxvi.deb
-Size: 437576
-md5: 99b4a756e96c1f91e73761b9bb9f4997
-sha1: 1a5836486ba2042c072a7d2d1f151ed13ea86219
-sha256: 5f394acf24132e8785149eff46c61a3b26d064276bd6c1196b9a9375919757cf
+Size: 437566
+md5: 0e7888b4e8a1720c8215e22d879c2136
+sha1: 8c59ea69cb1c14d34a5c1cbf5f6b55b60789fd59
+sha256: 1ff71939174fc0bde4f5f9172c434da337cb1c00d25dc718dca773491c0494c1
 Depiction: xianthi.github.io/depictions/web/?p=com.nahtedetihw.floatingdockxvi
 SileoDepiction: xianthi.github.io/depictions/native/com.nahtedetihw.floatingdockxvi/depiction.json
 
@@ -123,7 +157,7 @@ Package: com.opa334.altlist
 Section: Development
 Installed-Size: 306
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 1.0.10
 Depends: firmware (>= 7.0)
 Description: A modern AppList alternative
@@ -135,10 +169,10 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 dev: opa334
 Tag: purpose::library
 Filename: debians/com.opa334.altlist.deb
-Size: 90284
-md5: 4d09636ad96dd3f97dcc1338ed9c0eab
-sha1: 5d3a96b615001baf1896f5c370e524cd8c0dca6b
-sha256: 2b54bd74cc1e4f36efa16eb0edf4a1930f1d828e23cef971addfc0b4b87d1b15
+Size: 90270
+md5: 8d00f2521640fdf72e132661abd2117a
+sha1: 5e827029f0144f97b794cde5b3280795ca0a9945
+sha256: 63d1483d106d07cd64f7200f6176bba2f424b52b21fff48d3af60ec96b48ddfc
 Depiction: xianthi.github.io/depictions/web/?p=com.opa334.altlist
 SileoDepiction: xianthi.github.io/depictions/native/com.opa334.altlist/depiction.json
 
@@ -146,7 +180,7 @@ Package: com.opa334.libsandy
 Section: System
 Installed-Size: 442
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 1.1.3
 Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000)
 Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
@@ -159,18 +193,40 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 dev: opa334
 Tag: purpose::extension, role::developer
 Filename: debians/com.opa334.libsandy.deb
-Size: 74952
-md5: 2c6b0bd2269456f6d326e32f4058c3ca
-sha1: 1360bb62a7fd02da57b75c99d0d0bb72b4bb3a68
-sha256: 396bbe04d1e7135662163062b34fd48298ea9ff19b80ac4140889794dde6163f
+Size: 75166
+md5: d9dfdac948cda9aeecbdde30346c21d6
+sha1: 5495d7a8c3439f0223393c14f1c035353f5dfe01
+sha256: e8a44021683cc467eb1547314edcee7c3c4c3fe5ee3af51762d3a5e2c538f6a6
 Depiction: xianthi.github.io/depictions/web/?p=com.opa334.libsandy
 SileoDepiction: xianthi.github.io/depictions/native/com.opa334.libsandy/depiction.json
+
+Package: com.opa334.libundirect
+Section: Development
+Installed-Size: 308
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm
+Version: 1.1.5
+Description: Patchfinder and rebinder for objc_direct methods
+Author: opa334 <opa334@protonmail.com>
+Name: libundirect
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libundirectDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libundirectDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: opa334
+Tag: purpose::library
+Filename: debians/com.opa334.libundirect.deb
+Size: 40756
+md5: 9fe0aaef1b18a7c3533344d1555126d1
+sha1: 0e969e0aeb0e689890ad45716efe75e2c141aa27
+sha256: e728b24ddc18e1573007ffbf407ef2d5b6591fe154b1be071f5b89edbdddcdeb
+Depiction: xianthi.github.io/depictions/web/?p=com.opa334.libundirect
+SileoDepiction: xianthi.github.io/depictions/native/com.opa334.libundirect/depiction.json
 
 Package: com.pantsthief.flexing
 Section: Tweaks
 Installed-Size: 288
 Maintainer: Tanner Bennett <thepantsthief@me.com>
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 1.3.1
 Depends: libflex
 Pre-Depends: firmware (>= 8.0)
@@ -181,10 +237,10 @@ Author: Tanner Bennett <thepantsthief@me.com>
 Depiction: https://nscake.github.io/package.html?package=com.pantsthief.flexing
 SileoDepiction: https://nscake.github.io/depictions/com.pantsthief.flexing.sileo.json
 Filename: debians/com.pantsthief.flexing.deb
-Size: 57888
-md5: 8f5d24c3a0c03365321d6e569b8a99ff
-sha1: 23609d29bea6369223b4a1e5ae20ff36bd7a7569
-sha256: 9a5046d1d9b4851f149189dfa39b0eeaca94e9430df96142ee1c64085a2aa33a
+Size: 57872
+md5: 79cddd108d7a2c84043dbb8c9c8e55f2
+sha1: c6b1e7e615aa2454dab29c5ce3fd3669c0e12304
+sha256: eb253ee75f8fba54bf51bdda78d40a318e529a38006aab710a57908c38622f2b
 Depiction: xianthi.github.io/depictions/web/?p=com.pantsthief.flexing
 SileoDepiction: xianthi.github.io/depictions/native/com.pantsthief.flexing/depiction.json
 
@@ -192,7 +248,7 @@ Package: com.ps.emojiattributes
 Section: Tweaks
 Installed-Size: 632
 Maintainer: PoomSmart
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 1.7.1
 Depends: firmware (>= 5.1), mobilesubstrate, com.opa334.libundirect (>= 1.0)
 Conflicts: com.ps.flexmoji
@@ -202,38 +258,38 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/emojiattributes.html
 SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
 Filename: debians/com.ps.emojiattributes.deb
-Size: 141324
-md5: 47fe8bb7db28c42fa264bb4ea042a581
-sha1: 0145567967e6350d6f6a6f12abc21fa0967db315
-sha256: 0b38f16308de738c95167d170b9f7f186c29bac86ba20be77bb0f833cd192a4e
+Size: 141306
+md5: fc3ed8dfb97e9d9b6b0709afbedf74b3
+sha1: 6514253fa7bd5cd731c613d9ab1afde76fc15d5c
+sha256: 0dd6a4a6d63bf020260a9de31c039c62ed5a78e2b3ea1080e246166f17151244
 Depiction: xianthi.github.io/depictions/web/?p=com.ps.emojiattributes
 SileoDepiction: xianthi.github.io/depictions/native/com.ps.emojiattributes/depiction.json
 
-Package: com.ps.emojiport10resources
-Section: Tweaks
-Installed-Size: 216508
+Package: com.ps.emojilibrary
+Section: Development
+Installed-Size: 680
 Maintainer: PoomSmart
-Architecture: iphoneos-arm64
-Version: 1.5.1
-Depends: firmware (>= 10.0)
-Description: Latest emoji localization and metadata for iOS 10+
-Name: EmojiPort Resources (iOS 10+)
+Architecture: iphoneos-arm
+Version: 1.5.0
+Description: Master library for PoomSmart's emoji tweaks.
+Name: EmojiLibrary
 Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiport10resources.html
-SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport10resources.json
-Filename: debians/com.ps.emojiport10resources.deb
-Size: 117033374
-md5: 1c4b78e95971493e9bd8d79c9fb13823
-sha1: 09bab39f48b73015e3e2b9fb0a4b89a897d24fdf
-sha256: 4e0022d0bef9bcb3c9df89f18af9f84a3564bb0194f92d3db4d3753897f15435
-Depiction: xianthi.github.io/depictions/web/?p=com.ps.emojiport10resources
-SileoDepiction: xianthi.github.io/depictions/native/com.ps.emojiport10resources/depiction.json
+Depiction: https://poomsmart.github.io/repo/depictions/emojilibrary.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/emojilibrary.json
+Tag: role::developer
+Filename: debians/com.ps.emojilibrary.deb
+Size: 191302
+md5: 9ab96e62cb57eb2149b5ba67f86f6dea
+sha1: ba6d5de4f45ccdac06dfd97f46ed6516ca791dc1
+sha256: a2dba3e126666ebe7b2193b1df2ce5f50132950dc9657d8f34c4c17a2538c522
+Depiction: xianthi.github.io/depictions/web/?p=com.ps.emojilibrary
+SileoDepiction: xianthi.github.io/depictions/native/com.ps.emojilibrary/depiction.json
 
 Package: com.ps.emojiportpe
 Section: Tweaks
 Installed-Size: 336
 Maintainer: PoomSmart
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 1.4.3
 Depends: firmware (>= 12.0), firmware (<< 16.4), com.ps.emojiattributes (>= 1.7.0~b1), com.ps.emojilibrary (>= 1.5.0), com.ps.emojiport10resources (>= 1.5.0)
 Description: Latest emojis for iOS 12.0-16.3
@@ -242,10 +298,10 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/emojiport_12.html
 SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport_12.json
 Filename: debians/com.ps.emojiportpe.deb
-Size: 54816
-md5: fbebbcacee3dd77c90630da5fdf49dc0
-sha1: f860a4cfd37f4a4513fa3d604cc0288de745b52c
-sha256: 19621e665fcedc59952295b5553fc9f33f6eca589a060d1a82850cf9d0a0f74b
+Size: 54802
+md5: 165da39f21b159a54d5054c289f74ea6
+sha1: bbac26390b194a97f1fa768b18519311d554df6f
+sha256: 454c465a3ab33aec04607dc7fd48f75a89b0559ae1d08dc400a4b120a8f54180
 Depiction: xianthi.github.io/depictions/web/?p=com.ps.emojiportpe
 SileoDepiction: xianthi.github.io/depictions/native/com.ps.emojiportpe/depiction.json
 
@@ -253,7 +309,7 @@ Package: com.ps.ytabgoodies
 Section: Tweaks
 Installed-Size: 72
 Maintainer: PoomSmart
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 1.0.4
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
 Conflicts: com.ps.youremembercaption, com.ps.ytnochecklocalnetwork, com.ps.ytsystemappearance, com.ps.youarethere
@@ -263,10 +319,10 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/ytabgoodies.html
 SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/ytabgoodies.json
 Filename: debians/com.ps.ytabgoodies.deb
-Size: 8556
-md5: cdf4d991ad34cc1244d625e8d22db1db
-sha1: 124980bf7f8d821bc0c0f337f687b39e2a4769c0
-sha256: 1541c06a0259fdf542c6afd7e6e9acff19bba7956e5e56a5b6edece2b95bafdf
+Size: 8540
+md5: 945ce2616022c85862c16e03b9cefeb4
+sha1: 368904cbb10e3630ce71ec66169076145ca9764a
+sha256: d46828f2167eed123d7ae1912107aa7daf7bf60e38bbc24dd15ff3e8a56332c4
 Depiction: xianthi.github.io/depictions/web/?p=com.ps.ytabgoodies
 SileoDepiction: xianthi.github.io/depictions/native/com.ps.ytabgoodies/depiction.json
 
@@ -274,7 +330,7 @@ Package: com.ps.ytx
 Section: Tweaks
 Installed-Size: 72
 Maintainer: PoomSmart
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 1.4.2
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytabgoodies
 Description: A lightweight YouTube improvement tweak.
@@ -283,18 +339,75 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/ytx.html
 SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/ytx.json
 Filename: debians/com.ps.ytx.deb
-Size: 9714
-md5: dfb3e926a01b6f3594b925fcc21abf48
-sha1: 9721425479e13274e3155da94f17935c845438d7
-sha256: ae5bfd71a513396d28d7b4faf326d2adfa468f70c949a82ef541b79b57647971
+Size: 9692
+md5: 1bb74a25df701835b699641d79764722
+sha1: 28a092dc4c53b0c79e4203bc293e050ebf2d2bc7
+sha256: 15074844b2c9225019593e41fb5020ff17b2fc2bac99aa0b4cead96e91111b95
 Depiction: xianthi.github.io/depictions/web/?p=com.ps.ytx
 SileoDepiction: xianthi.github.io/depictions/native/com.ps.ytx/depiction.json
+
+Package: com.rocord01.rocordvise
+Section: Tweaks
+Maintainer: RoCord01 <rocord@rocord.cf>
+Architecture: iphoneos-arm
+Version: 1.2
+Description: Alternative to iSupervisor
+Name: RoCordvise
+Homepage: http://rocord.cf
+Depiction: http://rocord.cf/repo/desc/rocordvise
+Author: RoCord01 <rocord@rocord.cf>
+Sponsor: Myself <http://rocord.cf/>
+Filename: debians/com.rocord01.rocordvise.deb
+Size: 6476
+md5: 4820c4fd2dab9c19c2cebcd097835e58
+sha1: 8bef8f20634a19d872f94e691d2685ef47818299
+sha256: ce5cc71dfbe900a61438ccd23f1debc076c956234df9acf2f0098d55bb2cb0f7
+Depiction: xianthi.github.io/depictions/web/?p=com.rocord01.rocordvise
+SileoDepiction: xianthi.github.io/depictions/native/com.rocord01.rocordvise/depiction.json
+
+Package: com.serena.antoine
+Section: Tweaks
+Installed-Size: 2935
+Maintainer: Serena <hanzikashi@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.3
+Description: An Application to view System Logs, commonly known as syslog or OSLog, in real time
+Author: Serena <hanzikashi@gmail.com>
+Name: Antoine
+Icon: https://img.chariz.cloud/icon/antoine/icon@3x.png
+Depiction: https://chariz.com/get/antoine
+Tag: compatible_min::ios13.0
+Filename: debians/com.serena.antoine.deb
+Size: 1615338
+md5: a7f6ae907e6452ec8c0e455b86fa7a67
+sha1: d7008a1ebfa9dae03d8a79d5b40437d2f1da47e9
+sha256: 8e83dc2c38c9a5732ce377fc7e24918e57da4905185c7bf119ab3359e34c3844
+Depiction: xianthi.github.io/depictions/web/?p=com.serena.antoine
+SileoDepiction: xianthi.github.io/depictions/native/com.serena.antoine/depiction.json
+
+Package: com.spark.libsparkapplist
+Section: Development
+Installed-Size: 404
+Maintainer: Spark
+Architecture: iphoneos-arm
+Version: 1.0.10
+Description: AppList alternative
+Name: libSparkAppList
+Author: Spark
+Tag: role::developer
+Filename: debians/com.spark.libsparkapplist.deb
+Size: 89202
+md5: 0238a1fc1d6a2bb39eef76124d6e1d13
+sha1: 201af354696f973e140dee8e3fe2782cdde04c70
+sha256: b7e57b1aec78e2210a5f4bb95ebb0a72d183aadd92ce9ab59a6283b23e5bcc0d
+Depiction: xianthi.github.io/depictions/web/?p=com.spark.libsparkapplist
+SileoDepiction: xianthi.github.io/depictions/native/com.spark.libsparkapplist/depiction.json
 
 Package: com.trappledestek.appsyncunified
 Section: AD - Tweak
 Installed-Size: 700
 Maintainer: Deliturk
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 110.0
 Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
 Provides: appsync, net.angelxwind.appsyncunified
@@ -306,10 +419,10 @@ Author: =?utf-8?b?S2FyZW4v44GC44GR44G/LCBMaW51cyBZYW5nIDxrYXJlbkBha2VtaS5haT4=?=
 Depiction: https://repo.trappledestek.com/depictions/appsyncunified/index.html
 SileoDepiction: https://repo.trappledestek.com/depictions/appsyncunified/index.php
 Filename: debians/com.trappledestek.appsyncunified.deb
-Size: 167534
-md5: dedbd9a7f417b8deca407f3f8a0cdd5e
-sha1: 92ad03219f40343d301dd2a06279e0179d3683d9
-sha256: b71446f18cc7b7210ad914d5734b72450f965368f7e09f8e3603a96f5f04e4e7
+Size: 167376
+md5: c3d54ac9593dd44f1ec17dfb666297c8
+sha1: 6384f1441d18bd21dd9ed9ba5851963feeb0731b
+sha256: eb74780052728dbd27dca9ba7443648ffe328e22a6a4b1f16a92bf843de5003a
 Depiction: xianthi.github.io/depictions/web/?p=com.trappledestek.appsyncunified
 SileoDepiction: xianthi.github.io/depictions/native/com.trappledestek.appsyncunified/depiction.json
 
@@ -317,7 +430,7 @@ Package: com.trappledestek.dynamicpeninsula
 Section: AD - TR Tweak
 Installed-Size: 1508
 Maintainer: Deliturk
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 0.6-80
 Depends: mobilesubstrate, preferenceloader, com.trappledestek.limneosos, firmware (>= 12.0)
 Description: =?utf-8?q?=C3=87enti=C4=9Finizdeki_dinamik_ada=2E?=
@@ -327,10 +440,10 @@ Icon: https://repo.trappledestek.com/ikonlar/dynamicpeninsula.png
 Depiction: https://repo.trappledestek.com/depictions/dynamicpeninsula/index.html
 SileoDepiction: https://repo.trappledestek.com/depictions/dynamicpeninsula/index.php
 Filename: debians/com.trappledestek.dynamicpeninsula.deb
-Size: 561762
-md5: 8c494816bb4c62a7c07c71633098b5ac
-sha1: cacb9502554a1633f9ed81750746976673f56cac
-sha256: 8d43f1cbc97773eca0e18244ab376ee6427e516b15acc6b8ec357980645508d6
+Size: 561972
+md5: 2ae0a4f7f3889f17b1b7bcae94bad849
+sha1: 832efd29d6b6c58a4393b6a94530c3331b1f5857
+sha256: 7488f11e44afd567275860c2fe257bca5142cb652210e6f584868f4e0fecc83d
 Depiction: xianthi.github.io/depictions/web/?p=com.trappledestek.dynamicpeninsula
 SileoDepiction: xianthi.github.io/depictions/native/com.trappledestek.dynamicpeninsula/depiction.json
 
@@ -338,7 +451,7 @@ Package: com.trappledestek.icleanerpro
 Section: Utilities
 Installed-Size: 8333
 Maintainer: Deliturk
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 7.10.0
 Replaces: org.altervista.exilecom.icleaner
 Depends: firmware (>= 4.0), findutils, apt | apt7, com.trappledestek.icleanerprocrack
@@ -350,10 +463,10 @@ Icon: file:///Applications/iCleaner.app/Icon.png
 Depiction: https://repo.trappledestek.com/depictions/icleanerpro/index.html
 SileoDepiction: https://repo.trappledestek.com/depictions/icleanerpro/index.php
 Filename: debians/com.trappledestek.icleanerpro.deb
-Size: 2241658
-md5: be4d4150667a7473a7ccac0b7922e72b
-sha1: 58f07a01f771668be5efd3b71830f2c0e612bcca
-sha256: 4b14b7bb2bf1882cb2a7934604fabadc7f084c1e0f4035bf84ca1a9e83440d6e
+Size: 2242000
+md5: 94c796ad07d62a9914288a69a4a185a3
+sha1: 84c054d7ed42893f551e24e4dfba3d7b3678fb8e
+sha256: 27df248d6849556cc5314de6d42edba52e438a92ef54aaaae805f9053e34e216
 Depiction: xianthi.github.io/depictions/web/?p=com.trappledestek.icleanerpro
 SileoDepiction: xianthi.github.io/depictions/native/com.trappledestek.icleanerpro/depiction.json
 
@@ -361,7 +474,7 @@ Package: com.trappledestek.icleanerprocrack
 Section: AD - Tweak
 Installed-Size: 136
 Maintainer: CyPwn
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 1.1
 Depends: mobilesubstrate (>= 0.9.5000)
 Description: iCleaner Pro Crack
@@ -370,10 +483,10 @@ Author: Anna
 Depiction: https://repo.trappledestek.com/depictions/icleanerprocrack/index.html
 SileoDepiction: https://repo.trappledestek.com/depictions/icleanerprocrack/index.php
 Filename: debians/com.trappledestek.icleanerprocrack.deb
-Size: 18296
-md5: 4f0cd24fe68a2ff669dd33804e6902fb
-sha1: 3252cf48532264b5a9abd18d1764ad356bc02449
-sha256: b4a58e9f4a8df22382abae923d287a67eb26ccc57d02baecf7daa42f4b345268
+Size: 18510
+md5: a6259c82df6eb5efd932ad8b1bfc7bd6
+sha1: 45778a17c0c72f386e2d0cedb0f5889ae77f7705
+sha256: b748bd2618e399a6e84f87f0c80ccdc955f0f953da0a510a0ae9caa15e8d0e7e
 Depiction: xianthi.github.io/depictions/web/?p=com.trappledestek.icleanerprocrack
 SileoDepiction: xianthi.github.io/depictions/native/com.trappledestek.icleanerprocrack/depiction.json
 
@@ -382,7 +495,7 @@ Priority: optional
 Section: AD - Sistem
  Depiction: https://repo.trappledestek.com/depictions/installipa/index.html
 Maintainer: =?utf-8?q?=C3=96nder_Azazi_=3Conderazazi=40hotmail=2Ecom=3E?=
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 3.4.2-1
 Depends: firmware (>= 11.0), mobilesubstrate, gsc.armv7, com.trappledestek.appsyncunified
 Conflicts: com.autopear.installipa
@@ -391,10 +504,10 @@ Name: IPA Installer Console
 Author: Merlin
 SileoDepiction: https://repo.trappledestek.com/depictions/installipa/index.php
 Filename: debians/com.trappledestek.installipa.deb
-Size: 87244
-md5: 22ad629a3a93970f42bfd0ce76474972
-sha1: 1538ad8e6456d87436978546f4b03bb6c5fa51b4
-sha256: e0c26bbc4fef5c5900d29c7ee2a0eda537b4008ebae3a3101b807fb05fe63ec4
+Size: 87226
+md5: cb5a94353eb675fbc696a13eec6a0ce7
+sha1: 000fac3b40b3a65e54f24be40e39d860c8666b08
+sha256: 88d476524628cfa683e5ac86699ad50603ad0a0c81be09f6e370b36eb333100f
 Depiction: xianthi.github.io/depictions/web/?p=com.trappledestek.installipa
 SileoDepiction: xianthi.github.io/depictions/native/com.trappledestek.installipa/depiction.json
 
@@ -402,7 +515,7 @@ Package: com.trappledestek.limneosos
 Priority: optional
 Section: AD - Sistem
 Maintainer: TRappleDestek
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 3.0
 Depends: firmware (>= 8), mobilesubstrate
 Conflicts: com.trappledestek.limneosos
@@ -412,17 +525,17 @@ Author: Anna
 Depiction: https://repo.trappledestek.com/depictions/limneosos/index.html
 SileoDepiction: https://repo.trappledestek.com/depictions/limneosos/index.php
 Filename: debians/com.trappledestek.limneosos.deb
-Size: 16732
-md5: b760a2d8d27fe5a3f10156855a4fd61f
-sha1: 167b7af45d7c4ca1de4c26805d7b21a8b3737a98
-sha256: e42ceaa8c621e932884e80d979fbc5be31a67c1b03e630312c56562daafb0191
+Size: 16956
+md5: 09e25c0a84269195a43e95f396c84390
+sha1: b59c22e0f02a3ad484187aee9a39e632fbbcb1e0
+sha256: 31cfc0765e81f273fd84fd5fb58ab03d016c5a3ccbd6c624c79f16d4e1a053cc
 Depiction: xianthi.github.io/depictions/web/?p=com.trappledestek.limneosos
 SileoDepiction: xianthi.github.io/depictions/native/com.trappledestek.limneosos/depiction.json
 
 Package: com.trappledestek.newterm3x
 Section: AD - Uygulama
 Maintainer: OkkoOkan
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 3.0~beta1
 Depends: com.trappledestek.termcolors (>= 2.0.6), libreadline8 (= 8.1) | libreadline8 (= 99.0), libncursesw6 (= 6.2-1) | libncursesw6 (= 99.0), ncurses-bin (= 6.2-1) | ncurses-bin (= 99.0), ncurses-term (= 6.2-1) | ncurses-term (= 99.0)
 Description: =?utf-8?q?Xina_i=C3=A7in_NewTerm3=2E_TRappleDestek_taraf=C4=B1ndan_de=C4=9Fi=C5=9Ftirildi=2E_Ger=C3=A7ekten_i=C5=9Fe_yarayan_biri=2E?=
@@ -431,17 +544,17 @@ Author: HASHBANG Productions
 Depiction: https://repo.trappledestek.com/depictions/newterm3x/index.html
 SileoDepiction: https://repo.trappledestek.com/depictions/newterm3x/index.php
 Filename: debians/com.trappledestek.newterm3x.deb
-Size: 2628234
-md5: 2863dc47b34b7b26053d14c3590f2cd2
-sha1: 95696232a8bd31b80d7ee75a66e981140b340e98
-sha256: bff08790ab878084715668fe81e1abc4209713d025df01c57b97acbf780a35c0
+Size: 2628446
+md5: 673f9cf7d7287f45d2b537f6dd15c747
+sha1: 5396b43ee4f3ff34e808409959bbd82170e115ce
+sha256: 984cbdb0e26c828e03714fe0ed44c2ab8feb3af900fd362a3db979b08c3a1547
 Depiction: xianthi.github.io/depictions/web/?p=com.trappledestek.newterm3x
 SileoDepiction: xianthi.github.io/depictions/native/com.trappledestek.newterm3x/depiction.json
 
 Package: com.trappledestek.shufflexinaa15
 Section: AD - Tweak
 Maintainer: Deliturk
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 1.6.1-1
 Depends: firmware (>= 15.0), mobilesubstrate
 Conflicts: com.creaturecoding.shuffle
@@ -452,17 +565,17 @@ Icon: https://repo.cypwn.xyz/assets/repo/Featured/shuffle.png
 Depiction: https://repo.trappledestek.com/depictions/shufflexinaa15/index.html
 SileoDepiction: https://repo.trappledestek.com/depictions/shufflexinaa15/index.php
 Filename: debians/com.trappledestek.shufflexinaa15.deb
-Size: 1955582
-md5: d30b36925f58e9c0e7441f557d61f3d9
-sha1: 39d690a4e5e0810a9a5037c558247801a1c5e498
-sha256: 88443050d36a821817fffdc08353cbd6571a9fe424c3d3885ccb40a517202258
+Size: 1955796
+md5: b99147cc6ca5d50001258b143268aa5a
+sha1: 665d2e4fde982fdcc2c5567aec158c0b2848a5f4
+sha256: 295414b5540e6c50bce12736b8a318fe9feae4b81becf4763782e7cd98d03099
 Depiction: xianthi.github.io/depictions/web/?p=com.trappledestek.shufflexinaa15
 SileoDepiction: xianthi.github.io/depictions/native/com.trappledestek.shufflexinaa15/depiction.json
 
 Package: com.trappledestek.termcolors
 Section: AD - Sistem
 Maintainer: Deliturk
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 2.0.8
 Depends: mobilesubstrate, bash
 Description: =?utf-8?q?Renkli_komut_istemi=2C_metin=2C_dircolors=2C_cat_=28bat=29_s=C3=B6zdizimi_vurgulama_ve_nano_renklerle_Bash_kurulumu=2E_Terminalinize_=27rastgele=27_yazarak_rastgele_renk_istemi_=C3=BCreteci=2E_XinaA15_deste=C4=9Fi!_=27Toor=27_komutuyla_=28geriye_do=C4=9Fru_k=C3=B6k=29_k=C3=B6k_kullan=C4=B1c=C4=B1ya_ge=C3=A7me_yetene=C4=9Fi_eklendi=2E_Sudo_ve_su=27yu_=27toor=27_olarak_adland=C4=B1rarak_Xina_kullan=C4=B1c=C4=B1lar=C4=B1_i=C3=A7in_ge=C3=A7ici_sudo_d=C3=BCzeltmesi=2E?=
@@ -472,10 +585,10 @@ Icon: https://sudo9000.github.io/depictions/termcolors/assets/icon.png
 Depiction: https://repo.trappledestek.com/depictions/termcolors/index.html
 SileoDepiction: https://repo.trappledestek.com/depictions/termcolors/index.php
 Filename: debians/com.trappledestek.termcolors.deb
-Size: 2722054
-md5: a900604065ce79a56a1f771ab0d69f93
-sha1: bb356fa4f0fda77408a296be72880d2335dad340
-sha256: 5bb26976ab9519f79cccba09ba457c60729672fb453448f1561c5109f66914ae
+Size: 2722322
+md5: 31076e0a176eb5aea62abac3e7951cda
+sha1: 9d01248b8d159a985c466b0d6778cfdef0b44890
+sha256: e1c7f816d37eb777eb35edee81bac45ad71f0feca0f682b0ea50b3f210d8d1bc
 Depiction: xianthi.github.io/depictions/web/?p=com.trappledestek.termcolors
 SileoDepiction: xianthi.github.io/depictions/native/com.trappledestek.termcolors/depiction.json
 
@@ -483,43 +596,107 @@ Package: com.xianthi.c2hack
 Section: Tweaks
 Installed-Size: 400
 Maintainer: XianThi
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 0.0.1-554+debug
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3), me.jjolano.fmwk.hookkit
 Description: An awesome MobileSubstrate tweak!
 Name: c2hack
 Author: XianThi
 Filename: debians/com.xianthi.c2hack.deb
-Size: 86636
-md5: 83633e3cafeac3ba91d6b71d098d53bd
-sha1: 15e2611175b16b1a4d5812fca05c563590856d33
-sha256: 8049bc827c877398371a0f1ad5a018234f1801384e9f83a3f294408e565daa70
+Size: 86624
+md5: f893fb19985a73fd259399d4ce027519
+sha1: 2ea5c57ea11e8767b53a6baff96848a7ba02de96
+sha256: 049221bce8206b672033ff1ab7a16c503293ecdd759b69e5c8c8baa76ed3b31a
 Depiction: xianthi.github.io/depictions/web/?p=com.xianthi.c2hack
 SileoDepiction: xianthi.github.io/depictions/native/com.xianthi.c2hack/depiction.json
 
 Package: flexdecrypt
 Section: Tools
 Maintainer: John Coates
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 1.1
 Depends: firmware (>= 12.2) | org.swift.libswift (>= 5.0), firmware (>= 9.0)
 Description: Tool for decrypting iOS apps and Mach-O binaries.
 Name: flexdecrypt
 Author: John Coates
 Filename: debians/flexdecrypt.deb
-Size: 831878
-md5: 62a4e8c4b62115d83498b1d0bf4162a5
-sha1: a900937a4287d9ed2447c0e219c5ceb844a77aa6
-sha256: c69e46d058cb15d52714fb691482e436e50a0dee443a7b11c8ea5c5ed6ff26de
+Size: 831870
+md5: 5fea968926590008ca78ca46a80503de
+sha1: 01f86f74f971d48f57576cfeffca79ae9fc5ea51
+sha256: 15e79d12c85045ca78ee3d96fb75cd2787ecb92fc5d07f72a8adfbc8f011e4d1
 Depiction: xianthi.github.io/depictions/web/?p=flexdecrypt
 SileoDepiction: xianthi.github.io/depictions/native/flexdecrypt/depiction.json
+
+Package: libffi7
+Priority: optional
+Section: Libraries
+Installed-Size: 136
+Maintainer: Hayden Seay <me@diatr.us>
+Architecture: iphoneos-arm
+Multi-Arch: foreign
+Version: 3.3-1
+Replaces: libffi (<< 1:0)
+Provides: libffi (= 3.3-1)
+Conflicts: libffi (<< 1:0)
+Description: Foreign Function Interface library runtime
+ A foreign function interface is the popular name for the interface that
+ allows code written in one language to call code written in another
+ language.
+Filename: debians/libffi7.deb
+Size: 14636
+md5: 082b743fdf618a0a4a49b009e8b918c9
+sha1: d97d3ee0b541c7e463159c2f86a0bf2f11d9892d
+sha256: d0cd3a4f47ac64041746d93136489dc053445519190e4e5e28386214b4ff8df1
+Depiction: xianthi.github.io/depictions/web/?p=libffi7
+SileoDepiction: xianthi.github.io/depictions/native/libffi7/depiction.json
+
+Package: libflex
+Section: Tweaks
+Installed-Size: 11420
+Maintainer: Tanner Bennett <thepantsthief@me.com>
+Architecture: iphoneos-arm
+Version: 5.22.10
+Pre-Depends: firmware (>= 9.0)
+Description: A library for Flipboard Explorer.
+Name: libFLEX
+Author: Tanner Bennett <thepantsthief@me.com>
+Depiction: https://nscake.github.io/package.html?package=libflex
+SileoDepiction: https://nscake.github.io/depictions/libflex.sileo.json
+Filename: debians/libflex.deb
+Size: 3689048
+md5: c0e49fa0989e79f74f4a0f4c297ad914
+sha1: 13cba9c3ccb7345f69095162ce56ed27269d625b
+sha256: b56d168f0b6ac9602b1e65d15dcdeac53b680d36b51246a761e6bc8acffb7d88
+Depiction: xianthi.github.io/depictions/web/?p=libflex
+SileoDepiction: xianthi.github.io/depictions/native/libflex/depiction.json
+
+Package: libunistring2
+Priority: optional
+Section: Libraries
+Installed-Size: 1636
+Maintainer: Hayden Seay <me@diatr.us>
+Architecture: iphoneos-arm
+Multi-Arch: foreign
+Version: 0.9.10-2
+Replaces: libunistring (<< 0.9.10-2)
+Provides: libunistring (= 0.9.10-2)
+Conflicts: libunistring (<< 0.9.10-2)
+Description: Unicode string library for C
+Homepage: https://www.gnu.org/software/libunistring/
+Filename: debians/libunistring2.deb
+Size: 652620
+md5: b224bfb41c854ca193b02f09eefa0551
+sha1: 9b65ce840cb13208797379e306f74cc9ab7f27e0
+sha256: 183f982c50e3b81522dce3cb570069abed57fd27304cff16e983f06bc7ba2dc2
+Depiction: xianthi.github.io/depictions/web/?p=libunistring2
+SileoDepiction: xianthi.github.io/depictions/native/libunistring2/depiction.json
 
 Package: me.alfhaily.rocket
 Priority: optional
 Section: Tweaks
 Installed-Size: 6620
 Maintainer: Rocket App <support@getrocketapp.io>
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 3.8.19
 Depends: firmware (>= 8.0), mobilesubstrate
 Description: Save posts and view stories anonymously and do much more
@@ -529,10 +706,10 @@ Depiction: https://apt.alfhaily.me/depiction/4EYOXC
 SileoDepiction: https://apt.alfhaily.me/depiction/sileo/4EYOXC
 Icon: https://apt.alfhaily.me/cdn/assets/rocket-icon.png
 Filename: debians/me.alfhaily.rocket.deb
-Size: 2306368
-md5: 45b55ab93f8fa0fff561addd124e4b8c
-sha1: 857dd64f4f6547003243ed161c3d2ef7958759fe
-sha256: dee68fb40ebbac2b6983a9dbf2a4d46ad77aaefdc883a85e7914e9aa008793cc
+Size: 2306350
+md5: 9b1c1a37c12d8bcc00264ca6fc79f861
+sha1: 7d2d647a9f6b8ffa61bce49cd78369f2063f71b7
+sha256: 1b733d7c48404bbb23fe3df12e38ac5419fb8ad972e80ba7df9955fe1fcc5c60
 Depiction: xianthi.github.io/depictions/web/?p=me.alfhaily.rocket
 SileoDepiction: xianthi.github.io/depictions/native/me.alfhaily.rocket/depiction.json
 
@@ -540,7 +717,7 @@ Package: me.jjolano.fmwk.hookkit
 Section: Development
 Installed-Size: 284
 Maintainer: jjolano
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 1.0.15
 Depends: firmware (>= 8.0), me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge
 Description: An iOS developer framework for unified hooking methods.
@@ -548,10 +725,10 @@ Name: HookKit Framework
 Author: jjolano
 Tag: role::developer
 Filename: debians/me.jjolano.fmwk.hookkit.deb
-Size: 66724
-md5: 55cc2ed7aa4ca698bc049765a0995c41
-sha1: 3f48399aac58566fc103288705d1720d000dce09
-sha256: 1b67f6ee9fa5edd1fd6c6de7b0b70d18de1775a5ec8e6de89c51e8970ff3c4fa
+Size: 66710
+md5: fd3812f16884bbc454aed47b16e18e94
+sha1: 04b159b57e0150eb2d4a34373d64be1bba792a7b
+sha256: 2cc1f8a372ecf557dc37426f7bc6170172ff71ba65de3521ca35b26a0d2f8e67
 Depiction: xianthi.github.io/depictions/web/?p=me.jjolano.fmwk.hookkit
 SileoDepiction: xianthi.github.io/depictions/native/me.jjolano.fmwk.hookkit/depiction.json
 
@@ -559,7 +736,7 @@ Package: me.jjolano.fmwk.modulous
 Section: Development
 Installed-Size: 280
 Maintainer: jjolano
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 1.0.8
 Depends: firmware (>= 8.0)
 Description: An iOS developer framework for modular software.
@@ -567,10 +744,10 @@ Name: Modulous Framework
 Author: jjolano
 Tag: role::developer
 Filename: debians/me.jjolano.fmwk.modulous.deb
-Size: 40612
-md5: e796985c00d39ea9f93d1825b1d17972
-sha1: 9ee5e203fda0240c01c2df12fd8d89cc113bb1e3
-sha256: 86decc9773f3bcded54a745bd826a3b610908340f8f5982c5e0e8dc7ab79073d
+Size: 40600
+md5: 77bd2f11c6259a25b4b2abc67a4b156d
+sha1: b9813c3b9624b3b66ffafeaa5a1f0cf7cda09855
+sha256: 0babd22e55b266c1aa13d1140c6facadafa9d89f7c147281712927bdf8367ff7
 Depiction: xianthi.github.io/depictions/web/?p=me.jjolano.fmwk.modulous
 SileoDepiction: xianthi.github.io/depictions/native/me.jjolano.fmwk.modulous/depiction.json
 
@@ -578,7 +755,7 @@ Package: me.jjolano.fmwk.rootbridge
 Section: Development
 Installed-Size: 280
 Maintainer: jjolano
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 1.0.1
 Depends: firmware (>= 8.0)
 Description: An iOS developer framework for rootless tweak development.
@@ -586,18 +763,36 @@ Name: RootBridge Framework
 Author: jjolano
 Tag: role::developer
 Filename: debians/me.jjolano.fmwk.rootbridge.deb
-Size: 32412
-md5: 57b6aab22e003fead1ac65d8a42b9afd
-sha1: 596760aadd05cbb119eaf3eb453cf59d6dda3400
-sha256: e26837801218ddf275c2a441fdfbb43d718c1339577c61b608de4c533f4199ac
+Size: 32400
+md5: a38571bee1ef3e46b3225bae7d69e9f6
+sha1: 706a5acac02a200c2449ad9dd3f2c058730d6fed
+sha256: bc66f70e9f503886ec18e196cff802afd0dbf8b3c99d30489850348197f56699
 Depiction: xianthi.github.io/depictions/web/?p=me.jjolano.fmwk.rootbridge
 SileoDepiction: xianthi.github.io/depictions/native/me.jjolano.fmwk.rootbridge/depiction.json
+
+Package: me.jjolano.hkmodule.fishhook
+Section: HookKit (Modules)
+Installed-Size: 288
+Maintainer: jjolano
+Architecture: iphoneos-arm
+Version: 1.0.8
+Pre-Depends: me.jjolano.fmwk.hookkit
+Description: This module provides fishhook library support for HookKit Framework.
+Name: HookKit Module (fishhook)
+Author: jjolano
+Filename: debians/me.jjolano.hkmodule.fishhook.deb
+Size: 40292
+md5: d8562c2fd72fdfab16830c9437f14d55
+sha1: 6b8326cb78f68cab8ad9d2ef766914837b81f811
+sha256: 1f15b6691ec8168c0dc36431bd17f31ef3977359eba86e1bcf51304c262181f5
+Depiction: xianthi.github.io/depictions/web/?p=me.jjolano.hkmodule.fishhook
+SileoDepiction: xianthi.github.io/depictions/native/me.jjolano.hkmodule.fishhook/depiction.json
 
 Package: me.jjolano.hkmodule.substrate
 Section: HookKit (Modules)
 Installed-Size: 284
 Maintainer: jjolano
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 1.0.8
 Depends: mobilesubstrate
 Pre-Depends: me.jjolano.fmwk.hookkit
@@ -605,10 +800,10 @@ Description: This module provides the Cydia Substrate API for HookKit Framework.
 Name: HookKit Module (Cydia Substrate)
 Author: jjolano
 Filename: debians/me.jjolano.hkmodule.substrate.deb
-Size: 32690
-md5: db3ca4e1d58486f39b578d3a20d35884
-sha1: 0b949a60f32bf1335e3fd7353ac7d29af9a06475
-sha256: 0121dc6e6c9d960b83b1677350371c0f244c04a38807285750e9c83c8cf801a5
+Size: 32676
+md5: b3d784c3b0dacfc0cb61089932996bea
+sha1: 730a02071f76d42a5a8f85284f4e3687be33e5eb
+sha256: 6e194a0a9f446dbdc77b346ad2692c28c800268e928ddd82b4dedfa58b0fc5ca
 Depiction: xianthi.github.io/depictions/web/?p=me.jjolano.hkmodule.substrate
 SileoDepiction: xianthi.github.io/depictions/native/me.jjolano.hkmodule.substrate/depiction.json
 
@@ -616,7 +811,7 @@ Package: me.jjolano.shadow
 Section: System
 Installed-Size: 1428
 Maintainer: jjolano
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 3.7.6
 Replaces: me.jjolano.shadow.beta
 Provides: me.jjolano.shadow.beta
@@ -629,10 +824,10 @@ Description: A modern jailbreak detection bypass.
 Name: Shadow
 Author: jjolano
 Filename: debians/me.jjolano.shadow.deb
-Size: 392872
-md5: 54d1c3634dd6f5db836bb7b3a19c905a
-sha1: b2457c11cfca8ddffef2a6c493493ecf15bcbef7
-sha256: 243561fcbd3254bf79a0847250beb790f1fb4b432ad946a91e99fd23b959a75e
+Size: 393092
+md5: 376d6069f04c9a22e290bfc27e86cdeb
+sha1: 1cff68887e926cd00d498fe114a02926a49115dd
+sha256: d9468fde69c72fb3cb16c748374f422303d8e2c780708f9d2580f23562d07038
 Depiction: xianthi.github.io/depictions/web/?p=me.jjolano.shadow
 SileoDepiction: xianthi.github.io/depictions/native/me.jjolano.shadow/depiction.json
 
@@ -640,7 +835,7 @@ Package: org.thebigboss.whatsapprevael
 Section: Tweaks
 Installed-Size: 3614
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 10.21
 Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader
 Conflicts: org.thebigboss.whatsapprevaelrootless
@@ -654,17 +849,37 @@ dev: ahmadmokaddam
 Tag: purpose::extension
 Icon: file:///Library/Application%20Support/WARevael.bundle/icon@2x.png
 Filename: debians/org.thebigboss.whatsapprevael.deb
-Size: 1310276
-md5: ee705459871a7971c0822738b1404b08
-sha1: bf6edadfa4548189624aef75ba0aec7a14b07889
-sha256: e31d55e5be19f358646bef00e498d40a4cc511555dd2680a4993eea259baa0e7
+Size: 1310258
+md5: 2065ce71cd5840b9ca92c1490b5827c8
+sha1: 066bb7f9122a7bdd44836e7d6725086bc18126e9
+sha256: 76b244684783b8a8951e717573b284eacfa22e14684a43c48a0913f5b691d7b3
 Depiction: xianthi.github.io/depictions/web/?p=org.thebigboss.whatsapprevael
 SileoDepiction: xianthi.github.io/depictions/native/org.thebigboss.whatsapprevael/depiction.json
+
+Package: ru.rejail.filza
+Section: Utilities
+Installed-Size: 19388
+Maintainer: ReJail <rejail@rejail.ru>
+Architecture: iphoneos-arm
+Version: 4.0.1-4
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Description: =?utf-8?b?0KTQsNC50LvQvtCy0YvQuSDQvNC10L3QtdC00LbQtdGAINC00LvRjyBpT1M=?=
+Name: Filza File Manager
+Author: TIGI Software
+Depiction: https://rejail.ru/depiction.php?file=filza
+SileoDepiction: https://rejail.ru/sileo/depiction.php?file=filza
+Filename: debians/ru.rejail.filza.deb
+Size: 8874748
+md5: 11ccd2ff115e4804a815f901c85681a5
+sha1: 2d205653cbf0f87c6f765db2f40babdd9c28ab89
+sha256: f8200216df28b525a1f978610ef18cd889c7a4c403cc65b2b7586ce5330b38f1
+Depiction: xianthi.github.io/depictions/web/?p=ru.rejail.filza
+SileoDepiction: xianthi.github.io/depictions/native/ru.rejail.filza/depiction.json
 
 Package: sileoturkiye.animplus
 Section: TR - TR Yama
 Maintainer: =?utf-8?q?=C3=96nder_Azazi_=3Conderazazi=40hotmail=2Ecom=3E?=
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 2.5
 Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, applist
 Conflicts: com.adamseiter.animationsbefast, jp.novi.fakeclockup, jp.novi.fakeclockup2, com.zezblog.noslowanimationsar, com.marcosinghof.noslowanimations, com.pknauf.nsa, com.idevicehacked.nsa, com.adamseiter.animplus
@@ -672,45 +887,68 @@ Description: =?utf-8?b?aU9TIGFuaW1hc3lvbnUgaMSxemxhbmTEsXLEsW4h?=
 Name: AnimPlus
 Author: eXqusic
 Filename: debians/sileoturkiye.animplus.deb
-Size: 158398
-md5: d33cda8d4db1c8362803b7c1b790a518
-sha1: 67028837f719a4dd025c5c96778411159122eb47
-sha256: 32e49d1e6e0a8b7cfbc53fb2a8578e893a727ec25f97f1890d679700d698d1ae
+Size: 158612
+md5: 33d1e4e4fa363b582290e4b1c3c36489
+sha1: f17f39735340bf3cfe2149364a084f8a4969c325
+sha256: 04c3db5877a9f3f558fda8446566b2fd9cba966b8cfabb40fb23c83f59d437dd
 Depiction: xianthi.github.io/depictions/web/?p=sileoturkiye.animplus
 SileoDepiction: xianthi.github.io/depictions/native/sileoturkiye.animplus/depiction.json
 
 Package: sileoturkiye.apphack
 Section: TR - TR Yama
 Maintainer: =?utf-8?q?=C3=96nder_Azazi_=3Conderazazi=40hotmail=2Ecom=3E?=
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 4.5-4
 Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader, ws.hbang.common
 Description: =?utf-8?q?AppStore=27daki_=C3=A7o=C4=9Fu_uygulama_i=C3=A7in_hack_paketi=2E?=
 Name: Apps Hacks
 Author: hmodei96
 Filename: debians/sileoturkiye.apphack.deb
-Size: 3426764
-md5: 5c5000a84fe8fda4550d41154f03796b
-sha1: d8684780d4bfcbd99bb62b261fc2a2725a999408
-sha256: 10d07c7b899c378fbbbfd50edf23dc9eff8764c21752f94e3f30d251002f29b9
+Size: 3426748
+md5: 8b9dafbe48099e313e1b24747b65ac1f
+sha1: 6d03ff8c299ad8cc39044e7b52540e571b527ee2
+sha256: 725547536522e2c22f979fd4b09b7a0620c6de193416fde74064f7a990aeab83
 Depiction: xianthi.github.io/depictions/web/?p=sileoturkiye.apphack
 SileoDepiction: xianthi.github.io/depictions/native/sileoturkiye.apphack/depiction.json
+
+Package: ws.hbang.common
+Section: Development
+Installed-Size: 1852
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Architecture: iphoneos-arm
+Version: 1.17.1
+Depends: firmware (<< 8.0) | firmware (>= 11.0) | com.rpetrich.rocketbootstrap
+Description: Support library for tweaks
+Name: Cephei Tweak Support
+Author: HASHBANG Productions <support@hbang.ws>
+Icon: https://cdn.chariz.cloud/icon/cephei/icon@3x.png
+Depiction: https://chariz.com/get/cephei
+Support: https://hashbang.productions/support/
+Tag: role::developer, compatible_min::ios5.0
+dev: hbang
+Filename: debians/ws.hbang.common.deb
+Size: 397684
+md5: 0344d387abad5219c775b9948e177b59
+sha1: 4cbbd1990646b404fb00eb77ad8e9057769b14e7
+sha256: 95467e340c63019747e2e046b10d0c8c3a580c2f729a7c92528582e9e1918d43
+Depiction: xianthi.github.io/depictions/web/?p=ws.hbang.common
+SileoDepiction: xianthi.github.io/depictions/native/ws.hbang.common/depiction.json
 
 Package: zp.stopautolaunchapps
 Section: Tweaks
 Installed-Size: 88
 Maintainer: zp
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 0.2-1+debug
 Depends: mobilesubstrate (>= 0.9.5000)
 Description: Disable automatic startup of third-party processes in the background
 Name: stopAutoLaunchApps
 Author: zp
 Filename: debians/zp.stopautolaunchapps.deb
-Size: 9224
-md5: ae588534d0cc7b011f184e854ba97d9a
-sha1: 29f90d3596a60faf2bd0ba25464aaa0517c615d4
-sha256: e0d61b808bea101becb9ca253ac57a6a4f078fe505e9fbad03f2d7289572b113
+Size: 9212
+md5: afe214c42af573c11b9d5ac83144e6a7
+sha1: 8617daa3a517142ab4d05af98ce9c4f574e42a09
+sha256: ed5fc19e63ff197a4aee36ff86f53c1edd9f0ddfe9d1820150faeb8d405d278d
 Depiction: xianthi.github.io/depictions/web/?p=zp.stopautolaunchapps
 SileoDepiction: xianthi.github.io/depictions/native/zp.stopautolaunchapps/depiction.json
 
