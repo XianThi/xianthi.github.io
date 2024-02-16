@@ -1,15 +1,1 @@
-Origin: XianThiRepo
-Label: XianThi
-Suite: stable
-Version: 1.0.0
-Codename: tangelo
-Architectures: iphoneos-arm iphoneos-arm64
-Components: main
-Description: XianThi tweak repo
-md5:  0d97df362a50f2e2e2c539ca1f7dd796 31203 Packages
- 4608457c05681b8dd8c342300f9e5b90 9022 Packages.gz
-sha1:  1afe0b398241ac49c262b57554096bd9e4d56f11 31203 Packages
- ed3143abba522e61e4179e35f3dbd4326bf57363 9022 Packages.gz
-sha256:  5f7cecce0cfafe1154d5752445e45c2e873d1a5d09f4604b83ef8a97c4a06342 31203 Packages
- 52636656bccbbd177df459b2a6115191cfaf046aacca14a9249be15a4ee50149 9022 Packages.gz
-
+Origin: XianThi's repo\nLabel: XianThi's repo\nSuite: stable\nVersion: 1.0\nCodename: ios\nArchitectures: iphoneos-arm64\nComponents: main\nDescription: (Rootless) Repository for my tweaks\nMD5Sum:\n 0d97df362a50f2e2e2c539ca1f7dd796  ./Packages 31203 Packages\n 4059d198768f9f8dc9372dc1c54bc3c3  ./Packages.bz2 14 Packages.bz2\n 8dc5aea5b03dff8595f096f9e368e888  ./Packages.xz 32 Packages.xz\n d5d0411978867fcb567a63f8eadf350e  ./Packages.zst 8630 Packages.zst\nSHA1:\n 1afe0b398241ac49c262b57554096bd9e4d56f11 31203 Packages\n 64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 Packages.bz2\n 9746882f4236fa1c3a8f86be2f1d9c46680c0b10 32 Packages.xz\n ce68e26e3d5e7c24a998d49266b85b9f72e9f05c 8630 Packages.zst\nSHA256:\n 5f7cecce0cfafe1154d5752445e45c2e873d1a5d09f4604b83ef8a97c4a06342 31203 Packages\n d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 Packages.bz2\n 0040f94d11d0039505328a90b2ff48968db873e9e7967307631bf40ef5679275 32 Packages.xz\n 393ba150c2e9112e681e2db39d096f74ece420f8b7fd1db1ff272bd612beead2 8630 Packages.zst
