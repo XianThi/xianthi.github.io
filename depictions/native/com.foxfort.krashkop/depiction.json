@@ -1,0 +1,64 @@
+{
+    "minVersion": "0.1",
+    "headerImage": "headerImage",
+    "class": "DepictionTabView",
+    "tintColor": "#0657bb",
+    "tabs": [
+        {
+            "tabname": "Details",
+            "views": [
+                {
+                    "title": "KrashKop",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "markdown": "Lightweight crash reporter",
+                    "useSpacing": true,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "title": "markdown-description",
+                    "markdown": "Lightweight crash reporter",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "title": "Version",
+                    "text": "1.0.2",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Released",
+                    "text": "02-16-2024",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Price",
+                    "text": "Free",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "title": "Developer",
+                    "text": "FoxfortMobile",
+                    "class": "DepictionTableTextView"
+                }
+            ],
+            "class": "DepictionStackView"
+        }
+    ]
+}
